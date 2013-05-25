@@ -35,7 +35,6 @@
     return [NSString stringWithFormat:@"%@%@\n%@", [self name], [self refreshing], [self info]];
 }
 
-
 -(void)load{
     NSURLRequest *request = [NSURLRequest requestWithURL:_url];
     

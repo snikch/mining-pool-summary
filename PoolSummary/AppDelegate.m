@@ -14,12 +14,16 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSDictionary *poolInfo = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"Pools"];
-    pools = [NSMutableArray arrayWithCapacity:[poolInfo count]];
+    NSMutableArray *unsortedPools = [NSMutableArray arrayWithCapacity:[poolInfo count]];
     
     for (NSString *name in poolInfo) {
         Pool *pool = [[Pool alloc] initWithName:name URL:[poolInfo valueForKey:name]];
-        [pools addObject:pool];
+        [unsortedPools addObject:pool];
     }
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name"
+                                                  ascending:YES];
+
+    pools = [unsortedPools sortedArrayUsingDescriptors:@[sortDescriptor]];
     
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:menu];

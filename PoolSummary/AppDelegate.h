@@ -12,7 +12,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate, PoolDelegate>{
     IBOutlet NSMenu *menu;
     NSStatusItem * statusItem;
-    NSMutableArray *pools;
+    NSArray *pools;
 }
 
 @property (assign) IBOutlet NSWindow *window;
