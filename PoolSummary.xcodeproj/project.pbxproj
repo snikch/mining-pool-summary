@@ -13,6 +13,14 @@
 		20B5B97617505B4100158225 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B97417505B4100158225 /* Credits.rtf */; };
 		20B5B97917505B4100158225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5B97817505B4100158225 /* AppDelegate.m */; };
 		20B5B97C17505B4100158225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B97A17505B4100158225 /* MainMenu.xib */; };
+		20B5B98417505E1F00158225 /* Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5B98317505E1F00158225 /* Pool.m */; };
+		20B5B98B1750797500158225 /* ltc-ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B9881750797500158225 /* ltc-ring.png */; };
+		20B5B98C1750797500158225 /* ltc-ring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B9891750797500158225 /* ltc-ring@2x.png */; };
+		20B5B98F17507B1A00158225 /* ltc-ring-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B98D17507B1A00158225 /* ltc-ring-white.png */; };
+		20B5B99017507B1A00158225 /* ltc-ring-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B98E17507B1A00158225 /* ltc-ring-white@2x.png */; };
+		20B5B99317507B2100158225 /* ltc-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B99117507B2100158225 /* ltc-18.png */; };
+		20B5B99417507B2100158225 /* ltc-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B5B99217507B2100158225 /* ltc-18@2x.png */; };
+		5798F8781D7A4DB3B85629EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E77E3772C13419588409B8C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,16 @@
 		20B5B97717505B4100158225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20B5B97817505B4100158225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20B5B97B17505B4100158225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20B5B98217505E1F00158225 /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
+		20B5B98317505E1F00158225 /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pool.m; sourceTree = "<group>"; };
+		20B5B9881750797500158225 /* ltc-ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-ring.png"; sourceTree = "<group>"; };
+		20B5B9891750797500158225 /* ltc-ring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-ring@2x.png"; sourceTree = "<group>"; };
+		20B5B98D17507B1A00158225 /* ltc-ring-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-ring-white.png"; sourceTree = "<group>"; };
+		20B5B98E17507B1A00158225 /* ltc-ring-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-ring-white@2x.png"; sourceTree = "<group>"; };
+		20B5B99117507B2100158225 /* ltc-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-18.png"; sourceTree = "<group>"; };
+		20B5B99217507B2100158225 /* ltc-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ltc-18@2x.png"; sourceTree = "<group>"; };
+		3DAF5EC9D7414BA4A6D35AEF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9E77E3772C13419588409B8C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B5B96617505B4100158225 /* Cocoa.framework in Frameworks */,
+				5798F8781D7A4DB3B85629EA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +68,7 @@
 				20B5B96B17505B4100158225 /* PoolSummary */,
 				20B5B96417505B4100158225 /* Frameworks */,
 				20B5B96317505B4100158225 /* Products */,
+				3DAF5EC9D7414BA4A6D35AEF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +85,7 @@
 			children = (
 				20B5B96517505B4100158225 /* Cocoa.framework */,
 				20B5B96717505B4100158225 /* Other Frameworks */,
+				9E77E3772C13419588409B8C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +103,9 @@
 		20B5B96B17505B4100158225 /* PoolSummary */ = {
 			isa = PBXGroup;
 			children = (
+				20B5B9951750803D00158225 /* Images */,
+				20B5B98217505E1F00158225 /* Pool.h */,
+				20B5B98317505E1F00158225 /* Pool.m */,
 				20B5B97717505B4100158225 /* AppDelegate.h */,
 				20B5B97817505B4100158225 /* AppDelegate.m */,
 				20B5B97A17505B4100158225 /* MainMenu.xib */,
@@ -102,6 +126,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		20B5B9951750803D00158225 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				20B5B99117507B2100158225 /* ltc-18.png */,
+				20B5B99217507B2100158225 /* ltc-18@2x.png */,
+				20B5B9881750797500158225 /* ltc-ring.png */,
+				20B5B9891750797500158225 /* ltc-ring@2x.png */,
+				20B5B98D17507B1A00158225 /* ltc-ring-white.png */,
+				20B5B98E17507B1A00158225 /* ltc-ring-white@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B5B97F17505B4100158225 /* Build configuration list for PBXNativeTarget "PoolSummary" */;
 			buildPhases = (
+				5A086C6BD3C449C78D47688A /* Check Pods Manifest.lock */,
 				20B5B95E17505B4100158225 /* Sources */,
 				20B5B95F17505B4100158225 /* Frameworks */,
 				20B5B96017505B4100158225 /* Resources */,
+				E7779ECBACEA434EA9934C25 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,10 +195,47 @@
 				20B5B97017505B4100158225 /* InfoPlist.strings in Resources */,
 				20B5B97617505B4100158225 /* Credits.rtf in Resources */,
 				20B5B97C17505B4100158225 /* MainMenu.xib in Resources */,
+				20B5B98B1750797500158225 /* ltc-ring.png in Resources */,
+				20B5B98C1750797500158225 /* ltc-ring@2x.png in Resources */,
+				20B5B98F17507B1A00158225 /* ltc-ring-white.png in Resources */,
+				20B5B99017507B1A00158225 /* ltc-ring-white@2x.png in Resources */,
+				20B5B99317507B2100158225 /* ltc-18.png in Resources */,
+				20B5B99417507B2100158225 /* ltc-18@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A086C6BD3C449C78D47688A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+		E7779ECBACEA434EA9934C25 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20B5B95E17505B4100158225 /* Sources */ = {
@@ -168,6 +244,7 @@
 			files = (
 				20B5B97217505B4100158225 /* main.m in Sources */,
 				20B5B97917505B4100158225 /* AppDelegate.m in Sources */,
+				20B5B98417505E1F00158225 /* Pool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +339,7 @@
 		};
 		20B5B98017505B4100158225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAF5EC9D7414BA4A6D35AEF /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -274,6 +352,7 @@
 		};
 		20B5B98117505B4100158225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAF5EC9D7414BA4A6D35AEF /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -303,6 +382,7 @@
 				20B5B98117505B4100158225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

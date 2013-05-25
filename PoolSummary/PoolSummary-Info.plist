@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Pools</key>
+	<dict>
+		<key>Give Me LTC</key>
+		<string>http://give-me-ltc.com/api?api_key=YOUR_API_KEY_HERE</string>
+	</dict>
+	<key>LSUIElement</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

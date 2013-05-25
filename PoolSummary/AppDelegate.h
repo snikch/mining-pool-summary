@@ -7,8 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Pool.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate, PoolDelegate>{
+    IBOutlet NSMenu *menu;
+    NSStatusItem * statusItem;
+    NSMutableArray *pools;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
